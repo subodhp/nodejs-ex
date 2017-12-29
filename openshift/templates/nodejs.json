@@ -101,7 +101,7 @@
               },
 	      {
 		  "name": "GIT_SSL_NO_VERIFY",
-		  "value": "true"
+		  "value": "${GIT_SSL}"
 	      }
             ]
           }
@@ -289,6 +289,12 @@
       "displayName": "Custom NPM Mirror URL",
       "description": "The custom NPM mirror URL",
       "value": ""
+    },
+    {
+      "name": "GIT_SSL",
+      "displayName": "GIT no verify SSL",
+      "description": "The flag for no SSL verify",
+      "value": "true"
     }
   ]
 }
